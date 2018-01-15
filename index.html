@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Poker Edge</title>
+		<meta name="description" content="Poker Edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta property="og:image" content="img/header-logo.png">
+		<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#000">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#000">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+		<style>
+			body {
+				opacity: 0;
+				overflow-x: hidden;
+			}
+			html {
+				background-color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<!-- Логотип -->
+					<div class="col-xs-5 col-sm-3 col-md-2">
+						<div class="header__logo">
+							<img src="./img/header-logo.png" alt="Poker Edge logo">
+						</div>
+					</div>
+					<!-- Контакты -->
+					<div class="col-xs-7 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+						<div class="header__contacts-wrap">
+							<div class="header__contacts">
+								<p>Poker@poker.ru</p>
+								<a href="#" class="header__contacts-icon header__contacts-icon--letter">
+									<i></i>Написать</a>
+							</div>
+							<div class="header__contacts">
+								<p>Pokerskype</p>
+								<a href="#" class="header__contacts-icon header__contacts-icon--skype">
+									<i class="fa fa-skype"></i>Оставить сообщение</a>
+							</div>
+						</div>
+					</div>
+					<!-- Вход -->
+					<div class="col-xs-12 col-sm-3 col-md-4">
+						<div class="header__sign">
+							<a href="#" class="header__sign-icon">
+								<i></i>вход</a>
+							<a href="#" class="header__signup">Зарегистрироваться</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Меню -->
+			<div class="header__menu">
+				<nav class="header__menu-item">
+					<ul class="header__menu-list">
+						<!-- -->
+						<li>
+							<a href="#">
+								<i class="header__menu-icon header__menu-icon--pr"></i>Покер румы</a>
+						</li>
+						<!-- -->
+						<li>
+							<a href="#">
+								<i class="header__menu-icon header__menu-icon--rr"></i>Рейк гонки</a>
+						</li>
+						<!-- -->
+						<li>
+							<a href="#">
+								<i class="header__menu-icon header__menu-icon--md"></i>Медиа</a>
+						</li>
+						<!-- -->
+						<li>
+							<a href="#">
+								<i class="header__menu-icon header__menu-icon--st"></i>Софт</a>
+						</li>
+						<!-- -->
+						<li>
+							<a href="#">
+								<i class="header__menu-icon header__menu-icon--py"></i>Платежные системы</a>
+						</li>
+						<!-- -->
+						<li>
+							<a href="#">
+								<i class="header__menu-icon header__menu-icon--ed"></i>Обучение
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="container">
+					<!-- Хлебные крошки Навигация -->
+					<div class="row">
+						<div class="col-xs-12">
+							<nav class="header__breadcrumbs">
+								<ul class="header__breadcrumbs-list">
+									<li>
+										<a href="#">Главная</a>
+									</li>
+									<li>
+										<a href="#">Покер румы</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="rooms">
+				<div class="container">
+					<!-- Заголовок -->
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="rooms__title">
+								<h3>покер румы</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Верхнее меню контента -->
+					<div class="row">
+						<div class="col-xs-12">
+							<!-- Навигация табов -->
+							<div class='rooms__tabs tabs'>
+								<ul class="rooms__tabs-list">
+									<li>
+										<a href="#tab-1">Все</a>
+									</li>
+									<li>
+										<a href="#tab-2">Европейские</a>
+									</li>
+									<li>
+										<a href="#tab-3">Американские</a>
+									</li>
+									<li>
+										<a href="#tab-4">Азиатские</a>
+									</li>
+								</ul>
+								<div id='tab-1'>
+									<div class="row">
+										<div class="rooms__box-wrap">
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id='tab-2'>
+									<div class="row">
+										<div class="rooms__box-wrap">
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div id='tab-3'>
+									<div class="row">
+										<div class="rooms__box-wrap">
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id='tab-4'>
+									<div class="row">
+										<div class="rooms__box-wrap">
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/l-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+											<div class="rooms__box">
+												<div class="rooms__box-logo">
+													<img src="img/8-logo.png" alt="888 Logo">
+												</div>
+												<hr>
+												<div class="rooms__box-title clearfix">
+													<span class="rooms__box-title-name">
+														888 Poker
+														<br>
+														<small>сеть: 888</small>
+													</span>
+													<span class="rooms__box-title-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+												</div>
+												<div class="rooms__box-content">
+													<p>Бонус на первый депозит: 100% до 400$</p>
+													<p>Возврат рейка: до 27%</p>
+													<p>Платформы:
+														<i class="fa fa-android"></i>
+														<i class="fa fa-windows"></i>
+													</p>
+													<div class="rooms__box-content-wrap-btn">
+														<a href="#" class="rooms__box-content-btn">обзор покер рума</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Выбор Покерной сети -->
+					<div class="rooms__choose">
+						<form action="#">
+							<div class="rooms__choose-wrap">
+								<select class="rooms__choose-item">
+									<option>покерные сети</option>
+									<option>сеть 1</option>
+									<option>сеть 21</option>
+									<option>сеть 31</option>
+								</select>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<!-- Меню -->
+					<div class="col-xs-7 col-sm-9">
+						<nav class="footer__menu-item">
+							<ul class="footer__menu-list">
+								<!-- -->
+								<li>
+									<a href="#">
+										Покер румы
+									</a>
+								</li>
+								<!-- -->
+								<li>
+									<a href="#">
+										Рейк гонки
+									</a>
+								</li>
+								<!-- -->
+								<li>
+									<a href="#">
+										Медиа
+									</a>
+								</li>
+								<!-- -->
+								<li>
+									<a href="#">
+										Софт
+									</a>
+								</li>
+								<!-- -->
+								<li>
+									<a href="#">
+										Платежные системы
+									</a>
+								</li>
+								<!-- -->
+								<li>
+									<a href="#">
+										Обучение
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- Контакты -->
+					<div class="col-xs-5 col-sm-3">
+						<div class="footer__contacts">
+							<a href="#"><i class="fa fa-envelope-open-o"></i>POKER@POKER.RU</a>
+							<a href="#"><i class="fa fa-skype"></i>POKERSKYPE</a>
+						</div>
+					</div>
+				</div>
+				<!-- Правообладатель -->
+				<div class="row">
+					<div class="col-xs-12">
+						<p class="footer__title">POKEREDGE.RU Не является организатором игры. Сайт носит исключительно информационный характер.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<link rel="stylesheet" href="css/main.min.css">
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>
